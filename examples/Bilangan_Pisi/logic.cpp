@@ -1,26 +1,9 @@
 //? Header Files and namespaces
 #include<bits/stdc++.h>
 using namespace std;
-
-//? Code Shortners
-typedef long long ll;
-typedef unsigned long long ull;
-typedef vector<int> vi;
-typedef pair<int,int> pi;
-#define F first
-#define S second
-#define PB push_back
-#define MP make_pair
-#define POP pop_back
-#define len(s) (int)s.size()
-#define all(a) (a).begin(), 
-(a).end()
 #define endl '\n'
-#define PannDev 
-ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+#define PannDev ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define slv solve();
-
-ll mod = 1e9+7;
 
 //? y = hitung Digit
 int hitungDigit(int x) {
@@ -57,8 +40,7 @@ void solve() {
 
     // y = jumlah digit x
     int y = hitungDigit(x);
-    // penjumlahan dari each digit 
-x^y
+    // penjumlahan dari each digit x^y
     int sum = sumDigitPow(x, y); 
 
     //? Pisi! : Jika x == sum x^y
